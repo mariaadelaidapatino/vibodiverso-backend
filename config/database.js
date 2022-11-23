@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const host= "admin";
 const port="@micluster.orbni5f.mongodb.net";
 const db ="hr";
-//mongodb+srv://admin:admin@micluster.orbni5f.mongodb.net/hrretryWrites=true&w=majority
+//mongodb+srv://admin:admin@micluster.orbni5f.mongodb.net/hr?retryWrites=true&w=majority
 exports.mongoConnect=()=>{
     //const mongoStringConnetion =`mongodb://${host}:${port}/${db}`;
 
